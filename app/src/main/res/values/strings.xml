@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="intent_view">Intent View</string>
+    <string name="intent_send">Intent Send</string>
+    <string name="camera_intent">Camera Intent</string>
+    <string name="low_quality">Low Quality</string>
+    <string name="high_quality">High Quality</string>
+    <string name="imageview">ImageView</string>
+</resources>
