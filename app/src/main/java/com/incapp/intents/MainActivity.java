@@ -20,17 +20,18 @@ public class MainActivity extends AppCompatActivity {
         buttonIntentView = findViewById(R.id.button_intent_view);
         buttonCameraIntent = findViewById(R.id.button_camera_intent);
 
-        buttonIntentSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-
-                intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_TEXT, "Hello World");
-
-                startActivity(intent);
-            }
-        });
+//        This code is commented too to check Git. (Aakash)
+//        buttonIntentSend.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_SEND);
+//
+//                intent.setType("text/plain");
+//                intent.putExtra(Intent.EXTRA_TEXT, "Hello World");
+//
+//                startActivity(intent);
+//            }
+//        });
 
 //        This code is commented to test Git.
 //        buttonIntentView.setOnClickListener(new View.OnClickListener() {
