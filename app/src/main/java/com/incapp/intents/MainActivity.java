@@ -32,16 +32,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonIntentView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-
-                intent.setData(Uri.parse("https://www.google.co.in"));
-
-                startActivity(intent);
-            }
-        });
+//        This code is commented to test Git.
+//        buttonIntentView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//
+//                intent.setData(Uri.parse("https://www.google.co.in"));
+//
+//                startActivity(intent);
+//            }
+//        });
 
         buttonCameraIntent.setOnClickListener(new View.OnClickListener() {
             @Override
